@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0eada8;
+
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 400px auto;
+    animation-name: run;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes run {
+    /* 0% {
+        transform: rotate(0deg);
+    } */
+
+    0% {
+        transform: rotate(0deg);
+        border-radius: 10px;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        width: 50px;
+        height: 50px;
+        border-radius: 35px;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        border-radius: 10px;
+    }
+}
+
+.heading {
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+    width: 1000px;
+    height: 500px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 200px;
+
+}
+
+.pulse_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+
+}
+
+.pulse_item {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+
+}
+
+.white {
+    background-color: white;
+    animation-name: pulse_effect_white;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.red {
+    background-color: #EA2027;
+    animation-name: pulse_effect_red;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.orange {
+    background-color: #EE5A24;
+    animation-name: pulse_effect_orange;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.yellow {
+    background-color: #C4E538;
+    animation-name: pulse_effect_yellow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.blue {
+    background-color: #0652DD;
+    animation-name: pulse_effect_blue;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.green {
+    background-color: #009432;
+    animation-name: pulse_effect_green;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.violete {
+    background-color: #9980FA;
+    animation-name: pulse_effect_violet;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.black {
+    background-color: black;
+    animation-name: pulse_effect_black;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse_effect_white {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgb(212, 198, 198, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgb(212, 198, 198, 0);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes pulse_effect_red {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(197, 13, 13, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgb(97, 13, 13, 0);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes pulse_effect_orange {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(155, 72, 90, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgb(155, 72, 90, 0);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes pulse_effect_yellow {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(192, 212, 6, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgb(192, 212, 6, 0);
+        ;
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes pulse_effect_blue {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(39, 12, 194, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgb(39, 12, 194, 0);
+        ;
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes pulse_effect_green {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(5, 163, 13, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgb(5, 163, 13, 0);
+        ;
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes pulse_effect_violet {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(180, 9, 196, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgb(180, 9, 196, 0);
+        ;
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+@keyframes pulse_effect_black {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgb(180, 9, 196, 0);
+        ;
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+.main_container {
+    background-image: url(./image/starfield.png);
+    width: 1920px;
+    height: 979px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.earth {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    border: 3px solid gray;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform-style: preserve-3d;    
+    transform: rotateX(72deg) rotateY(0deg) rotateZ(0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earth img {
+    width: 400px;
+    height: 450px;
+    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.moon {
+    background-image: url(https://t4.ftcdn.net/jpg/03/09/04/59/360_F_309045980_zKAgyd8feCR69CMWQ1PlhCHhteODo9zd.jpg) ;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: rotateZ(348deg) translate(260px) rotateY(90deg) rotateX(79deg);
+    animation: speen 5s infinite;
+    animation-timing-function: linear;
+    }
+
+.moon img {
+    width: 100%;
+    height: 100%;
+    z-index: 500;;
+}
+
+
+
+
+@keyframes speen {
+    0%{
+    transform: rotateZ(0deg) translate(260px) rotateY(90deg) rotateX(90deg);
+    box-shadow: inset -16px 32px 15px 0px rgb(0 0 0);
+    }
+    50%{
+    transform: rotateZ(180deg) translate(260px) rotateY(90deg) rotateX(270deg);
+    box-shadow: inset 32px -16px 12px rgb(0 0 0);
+    }
+    100%{
+    transform: rotateZ(360deg) translate(260px) rotateY(90deg) rotateX(450deg);
+    box-shadow: inset -16px 32px 15px 0px rgb(0 0 0);
+    }
+    }

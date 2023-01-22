@@ -1,0 +1,118 @@
+@import url(reset.css);
+
+
+.arsenal{
+    width: 272px;
+    height: 519px;
+    text-align: center;
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 150px;
+    display: inline-block;
+    text-shadow: 3px 3px 6px black;
+    color: white;
+    margin: 0px -2px;
+    padding-top: 460px;
+}
+
+.item-a{
+    background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.item-r{
+ 
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.item-s{
+    
+    background: #dd3e54;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.item-e{
+   
+    background: #5A3F37;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.item-n{
+   
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.item-a2{
+    background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+.item-l{
+  
+    background: #e9d362;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #333333, #e9d362);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #333333, #e9d362); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(230, 225, 219);
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;   
+}
+
+
+.logo{
+    width: 50%;
+    display: inline-block;
+    font-size: 38px;
+    display: inline-block;
+}
+
+.menu{
+    background-color: #2C7744;
+    width: 50%;
+    height: 59px;
+    display: inline-block;
+   
+  
+   
+  
+    
+}
+
+.menu-item{
+    width: 80px;
+    height: 100%;
+    background-color: violet;
+    border: black 1px solid;
+    display: inline-block;
+    margin: 0px -3px;
+    padding: 20px 0;
+    
+}
+
+.menu-link{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color:  black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+}
